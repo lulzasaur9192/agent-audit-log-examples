@@ -2,15 +2,15 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org)
-[![RapidAPI](https://img.shields.io/badge/RapidAPI-Agent%20Audit%20Log-blue)](https://rapidapi.com/lulzasaur9192/api/agent-audit-log)
+[![RapidAPI](https://img.shields.io/badge/RapidAPI-Agent%20Audit%20Log-blue)](https://rapidapi.com/lulzasaur9192/api/agent-audit-log?utm_source=github&utm_medium=readme&utm_campaign=agent-audit-log)
 
-Code examples for **AI agent audit logging**, **LLM audit trails**, and **tamper-evident logs** using the [Agent Audit Log API](https://rapidapi.com/lulzasaur9192/api/agent-audit-log).
+Code examples for **AI agent audit logging**, **LLM audit trails**, and **tamper-evident logs** using the [Agent Audit Log API](https://rapidapi.com/lulzasaur9192/api/agent-audit-log?utm_source=github&utm_medium=readme&utm_campaign=agent-audit-log).
 
 Add **agent compliance logging**, **HMAC chain verification**, and **agent observability** to your LLM agents — LangChain, CrewAI, AutoGPT, or custom builds.
 
 ## Get API Key
 
-1. Go to [Agent Audit Log on RapidAPI](https://rapidapi.com/lulzasaur9192/api/agent-audit-log)
+1. Go to [Agent Audit Log on RapidAPI](https://rapidapi.com/lulzasaur9192/api/agent-audit-log?utm_source=github&utm_medium=readme&utm_campaign=agent-audit-log)
 2. Subscribe (free tier available)
 3. Copy your API key from the dashboard
 
