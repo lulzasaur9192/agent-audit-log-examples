@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Audit Log API — Platform Compliance & Governance</title>
+    <meta name="description" content="Immutable audit logs for AI agents. Meet compliance requirements for financial, healthcare, and enterprise platforms.">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Agent Audit Log API",
+        "description": "Compliance-grade audit logging for AI agent platforms"
+    }
+    </script>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+        .hero { background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); color: white; padding: 3rem 2rem; border-radius: 8px; margin-bottom: 2rem; }
+        h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+        .tagline { font-size: 1.2rem; opacity: 0.9; margin-bottom: 2rem; }
+        .cta-button { 
+            display: inline-block; 
+            background: #fff; 
+            color: #2c3e50; 
+            padding: 12px 24px; 
+            border-radius: 4px; 
+            text-decoration: none; 
+            font-weight: 600; 
+            margin-right: 10px;
+        }
+        .cta-button:hover { opacity: 0.9; }
+        .problem { background: #f5f5f5; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; }
+        .problem h2 { margin-bottom: 1rem; color: #2c3e50; }
+        .solution { margin-bottom: 2rem; }
+        .solution h2 { margin-bottom: 1rem; color: #2c3e50; }
+        .code-block { background: #282c34; color: #abb2bf; padding: 1rem; border-radius: 4px; overflow-x: auto; font-family: 'Courier New', monospace; font-size: 0.9rem; margin: 1rem 0; }
+        .footer { text-align: center; padding-top: 2rem; border-top: 1px solid #ddd; color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Compliance-Grade Agent Audit Logs</h1>
+            <p class="tagline">Immutable, tamper-proof logs for every agent decision. Meet SOC2, HIPAA, and SEC requirements.</p>
+            <a href="https://rapidapi.com/lulzasaur9192/api/agent-audit-log?utm_source=intent-page&utm_medium=landing&utm_campaign=audit-log-platform" class="cta-button">Get API Access</a>
+            <a href="https://www.postman.com/lulzasaur/collections/agent-audit-log" class="cta-button" style="background: rgba(255,255,255,0.2); border: 1px solid white;">View Postman Collection</a>
+        </div>
+
+        <div class="problem">
+            <h2>The Compliance Gap: AI Agents Lack Audit Trails</h2>
+            <p>Enterprise platforms need to prove what agents did and why:</p>
+            <ul style="margin-left: 1.5rem; margin-top: 1rem;">
+                <li><strong>SOC2</strong> — Requires audit logs for all system actions</li>
+                <li><strong>HIPAA</strong> — Medical agents must log all patient data access</li>
+                <li><strong>SEC</strong> — Financial advisors must explain recommendations</li>
+                <li><strong>GDPR</strong> — Right to explanation requires decision logs</li>
+            </ul>
+        </div>
+
+        <div class="solution">
+            <h2>The Solution: Immutable Agent Audit Logs</h2>
+            <p>Append-only logs that capture every agent action. Timestamped, signed, and tamper-proof for auditors.</p>
+            
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Compliance Features</h3>
+            <div class="code-block">
+GET /audit-logs/{agent_session_id}
+→ {
+  timestamp: "2026-03-31T10:45:00Z",
+  action: "credit_decision",
+  input_data: {...},
+  agent_reasoning: "Risk score 0.23 < threshold 0.5",
+  decision: "APPROVED",
+  signed_hash: "abc123...",
+  immutable: true
+}
+            </div>
+
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Platform Use Cases</h3>
+            <ul style="margin-left: 1.5rem;">
+                <li><strong>Regulatory audit</strong> — Show auditors full decision trails</li>
+                <li><strong>Dispute resolution</strong> — Prove why an agent rejected a customer</li>
+                <li><strong>Model bias detection</strong> — Analyze logs for patterns of unfair decisions</li>
+                <li><strong>Incident investigation</strong> — Reconstruct what happened when something went wrong</li>
+            </ul>
+        </div>
+
+        <div style="background: #efefef; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; text-align: center;">
+            <h2 style="margin-bottom: 1rem;">Get Audit-Ready</h2>
+            <p style="margin-bottom: 1rem;">Enterprise tier: SOC2-compliant logging, 99.99% availability, 7-year retention.</p>
+            <a href="https://rapidapi.com/lulzasaur9192/api/agent-audit-log?utm_source=intent-page&utm_medium=cta&utm_campaign=audit-log-platform" class="cta-button">Get Started</a>
+        </div>
+
+        <div class="footer">
+            <p>Agent Audit Log API • SOC2 Compliant • Tamper-Proof • Regulatory Ready • <a href="https://github.com/lulzasaur9192/agent-audit-log-examples" style="color: #2c3e50;">Examples</a></p>
+        </div>
+    </div>
+</body>
+</html>

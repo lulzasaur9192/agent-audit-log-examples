@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Audit Log API — AI Team Debugging & Tracing</title>
+    <meta name="description" content="Real-time audit logging for AI agents. Debug multi-step agent workflows with full call traces and state snapshots.">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Agent Audit Log API",
+        "description": "Comprehensive audit logging for AI agents and multi-agent systems"
+    }
+    </script>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+        .hero { background: linear-gradient(135deg, #6c63ff 0%, #5a4bb8 100%); color: white; padding: 3rem 2rem; border-radius: 8px; margin-bottom: 2rem; }
+        h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+        .tagline { font-size: 1.2rem; opacity: 0.9; margin-bottom: 2rem; }
+        .cta-button { 
+            display: inline-block; 
+            background: #fff; 
+            color: #6c63ff; 
+            padding: 12px 24px; 
+            border-radius: 4px; 
+            text-decoration: none; 
+            font-weight: 600; 
+            margin-right: 10px;
+        }
+        .cta-button:hover { opacity: 0.9; }
+        .problem { background: #f5f5f5; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; }
+        .problem h2 { margin-bottom: 1rem; color: #6c63ff; }
+        .solution { margin-bottom: 2rem; }
+        .solution h2 { margin-bottom: 1rem; color: #6c63ff; }
+        .code-block { background: #282c34; color: #abb2bf; padding: 1rem; border-radius: 4px; overflow-x: auto; font-family: 'Courier New', monospace; font-size: 0.9rem; margin: 1rem 0; }
+        .footer { text-align: center; padding-top: 2rem; border-top: 1px solid #ddd; color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Debug Agent Workflows Instantly</h1>
+            <p class="tagline">Full audit logs for every agent action. Trace multi-step workflows, debug failures, replay execution paths.</p>
+            <a href="https://rapidapi.com/lulzasaur9192/api/agent-audit-log?utm_source=intent-page&utm_medium=landing&utm_campaign=audit-log-ai-team" class="cta-button">Get API Access</a>
+            <a href="https://www.postman.com/lulzasaur/collections/agent-audit-log" class="cta-button" style="background: rgba(255,255,255,0.2); border: 1px solid white;">View Postman Collection</a>
+        </div>
+
+        <div class="problem">
+            <h2>The Challenge: Agent Debugging Is Opaque</h2>
+            <p>Multi-step AI agents are hard to debug:</p>
+            <ul style="margin-left: 1.5rem; margin-top: 1rem;">
+                <li>Agent takes wrong path but why? No visibility into reasoning</li>
+                <li>Tool calls fail silently — did the agent notice? Did it retry?</li>
+                <li>State mutations are invisible — what context is the agent working with?</li>
+                <li>Multi-agent workflows have cascading failures but no call trace</li>
+            </ul>
+        </div>
+
+        <div class="solution">
+            <h2>The Solution: Agent Audit Log API</h2>
+            <p>Log every agent action in real-time. Get full execution traces with reasoning, tool calls, state snapshots, and error handling.</p>
+            
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Quick Integration</h3>
+            <div class="code-block">
+// Log agent decisions + tool calls
+const log = await auditLog.log({
+  agent_id: 'my-agent',
+  action: 'tool_call',
+  tool: 'web_search',
+  input: { query: 'latest AI news' },
+  timestamp: new Date(),
+  duration_ms: 234
+});
+            </div>
+
+            <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">AI Team Use Cases</h3>
+            <ul style="margin-left: 1.5rem;">
+                <li><strong>Debug failures</strong> — See exact moment agent decision went wrong</li>
+                <li><strong>Trace multi-step workflows</strong> — Follow a workflow from start to finish with all decisions</li>
+                <li><strong>Analyze agent behavior</strong> — Identify patterns in how agents approach problems</li>
+                <li><strong>Replay & modify</strong> — Replay execution with different context to test fixes</li>
+            </ul>
+        </div>
+
+        <div style="background: #efefef; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; text-align: center;">
+            <h2 style="margin-bottom: 1rem;">Start Logging Agent Actions</h2>
+            <p style="margin-bottom: 1rem;">Free tier: 10K events/month. Enterprise: unlimited with real-time webhooks.</p>
+            <a href="https://rapidapi.com/lulzasaur9192/api/agent-audit-log?utm_source=intent-page&utm_medium=cta&utm_campaign=audit-log-ai-team" class="cta-button">Start Logging</a>
+        </div>
+
+        <div class="footer">
+            <p>Agent Audit Log API • Full Execution Traces • Real-time Logging • Replay Capable • <a href="https://github.com/lulzasaur9192/agent-audit-log-examples" style="color: #6c63ff;">Examples</a></p>
+        </div>
+    </div>
+</body>
+</html>
